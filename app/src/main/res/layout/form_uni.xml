@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.uca.unicapi.MainActivity">
+
+
+    <EditText
+        android:id="@+id/nameUni"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignLeft="@+id/addressUni"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/addressUni"
+        android:hint="@string/hint"
+        android:textColor="@color/textColor" />
+
+    <Spinner
+        android:id="@+id/departament"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <EditText
+        android:id="@+id/addressUni"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+
+        android:layout_alignLeft="@+id/phoneUni"
+        android:layout_alignStart="@+id/phoneUni"
+        android:layout_below="@+id/nameUni"
+        android:layout_marginTop="44dp"
+        android:hint="@string/address"
+        android:textColor="@color/textColor" />
+
+    <EditText
+        android:id="@+id/phoneUni"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/addressUni"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+
+        android:hint="Telefono"
+        android:textColor="@color/textColor" />
+
+    <EditText
+        android:id="@+id/descriptionUni"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/phoneUni"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+
+        android:hint="Descripcion"
+        android:textColor="@color/textColor" />
+
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="GUARDAR" />
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/back" />
+
+</RelativeLayout>

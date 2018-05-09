@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">unicapi</string>
+    <string name="back">Atrás</string>
+
+    <string name="hint">Nombre de la universidad</string>
+    <string name="address">Dirección de universidad</string>
+
+    <string name="textButton">Agregar</string>
+    <string name="hintId">ID</string>
+    <string name="buttonDelete">Eliminar</string>
+    <string name="buttonUpdate">Actualizar</string>
+    <string name="buttonSelct">Ver lista de universidades</string>
+</resources>

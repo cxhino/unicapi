@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="combo_departments">
+        <item>Managua</item>
+        <item>Granada</item>
+        <item>Masaya</item>
+        <item>León</item>
+        <item>Rivas</item>
+        <item>Matagalpa</item>
+        <item>Chinandega</item>
+        <item>Estelí</item>
+        <item>Jinotega</item>
+        <item>Madriz</item>
+        <item>Rio San Juan</item>
+        <item>RAAN</item>
+        <item>RAAS</item>
+        <item>Chontales</item>
+    </string-array>
+</resources>

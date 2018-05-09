@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.uca.unicapi.MainActivity">
+
+    <EditText
+        android:id="@+id/idUni"
+        android:layout_width="80dp"
+        android:layout_height="39dp"
+        android:layout_alignLeft="@+id/nameUni"
+        android:layout_alignStart="@+id/nameUni"
+        android:hint="@string/hintId"
+        android:textColor="@color/textColor" />
+
+    <Spinner
+        android:id="@+id/departament"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/idUni"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        />
+
+    <EditText
+        android:id="@+id/nameUni"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/departament"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:hint="@string/hint"
+        android:textColor="@color/textColor" />
+
+    <EditText
+        android:id="@+id/addressUni"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nameUni"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+
+        android:hint="@string/address"
+        android:textColor="@color/textColor" />
+
+    <EditText
+        android:id="@+id/phoneUni"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/addressUni"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+
+        android:hint="Telefono"
+        android:textColor="@color/textColor" />
+
+    <EditText
+        android:id="@+id/descriptionUni"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/phoneUni"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+
+        android:hint="Descripcion"
+        android:textColor="@color/textColor" />
+
+
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descriptionUni"
+        android:layout_centerHorizontal="true"
+        android:text="@string/buttonDelete" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descriptionUni"
+        android:layout_toRightOf="@+id/buttonDelete"
+        android:layout_alignBaseline="@+id/buttonDelete"
+        android:layout_alignBottom="@+id/buttonDelete"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="@string/buttonUpdate" />
+
+    <Button
+        android:id="@+id/buttonSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/buttonUpdate"
+        android:layout_alignRight="@+id/buttonUpdate"
+        android:layout_below="@+id/buttonDelete"
+        android:text="@string/buttonSelct" />
+
+</RelativeLayout>
+
+
+
+
+
+
